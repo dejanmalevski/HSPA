@@ -3,13 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { PropertyCardComponent } from './property/propery-card/property-card/property-card.component';
+import { PropertyCardComponent } from './property/propery-card/property-card.component';
+import { PropertyListComponent } from './property/propery-list/property-list.component';
 
 @NgModule({
   declarations: [	
     AppComponent,
       NavBarComponent,
-      PropertyCardComponent
+      PropertyCardComponent,
+      PropertyListComponent
    ],
   imports: [
     BrowserModule
@@ -17,4 +19,5 @@ import { PropertyCardComponent } from './property/propery-card/property-card/pro
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
